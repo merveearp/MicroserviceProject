@@ -9,6 +9,16 @@
   </Folder>
   <Folder Name="/Services/Discount/" />
   <Folder Name="/Services/Order/" />
+  <Folder Name="/Services/Order/Core/">
+    <Project Path="Services/Order/Core/ECommerce.OrderApplication/ECommerce.OrderApplication.csproj" />
+    <Project Path="Services/Order/Core/ECommerce.OrderDomain/ECommerce.OrderDomain.csproj" />
+  </Folder>
+  <Folder Name="/Services/Order/Infrastructure/">
+    <Project Path="Services/Order/Infrastructure/ECommerce.OrderPersistance/ECommerce.OrderPersistance.csproj" />
+  </Folder>
+  <Folder Name="/Services/Order/Presentation/">
+    <Project Path="Services/Order/Presentation/ECommerce.Order.API/ECommerce.Order.API.csproj" />
+  </Folder>
   <Folder Name="/Shared/">
     <File Path="Ports.txt" />
   </Folder>

@@ -39,9 +39,14 @@ namespace ECommerce.Catalog.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(UpdateCategoryDto createDto)
+        public async Task<IActionResult> Update(UpdateCategoryDto updateDto)
         {
-            var value = createDto.Adapt<Category>();
+            var value = await _categoryRepository.GetByIdAsync(updateDto.Id);
+            if (value is null)
+            {
+                return BadRequest("Kategori Bulunamadı");
+            }
+            value = updateDto.Adapt<Category>();
             await _categoryRepository.UpdateAsync(value);
             return NoContent();
         }
