@@ -1,5 +1,6 @@
 
 CATALOG => https://localhost:7000
+ORDER => https://localhost:7001
 
 Portainer :admin
 Portainer Password :Merveİlker.1203
