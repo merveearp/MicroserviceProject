@@ -28,7 +28,7 @@ namespace ECommerce.Order.API.Controllers
         public async Task<IActionResult> UpdateAddress(UpdateAddressCommand command)
         {
             await _mediator.Send(command);
-            return Ok();
+            return NoContent();
         }
     }
 }

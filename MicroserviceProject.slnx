@@ -1,6 +1,8 @@
 <Solution>
   <Folder Name="/FrontEnd/" />
-  <Folder Name="/IdentityServer/" />
+  <Folder Name="/IdentityServer/">
+    <Project Path="IdentityServer/ECommerce.IdentityServer/ECommerce.IdentityServer.csproj" />
+  </Folder>
   <Folder Name="/Services/" />
   <Folder Name="/Services/Basket/" />
   <Folder Name="/Services/Cargo/" />

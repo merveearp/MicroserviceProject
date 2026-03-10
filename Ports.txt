@@ -1,6 +1,7 @@
 
 CATALOG => https://localhost:7000
 ORDER => https://localhost:7001
+IDENTITYSERVER => https://localhost:5001
 
 Portainer :admin
 Portainer Password :Merveİlker.1203
